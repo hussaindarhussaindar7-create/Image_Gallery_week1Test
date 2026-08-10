@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <header class="navbar">
+
+    <div class="logo">
+        <a href="#">Gallery</a>
+    </div>
+
+    <nav>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <button id="theme-btn">🌙 Dark Mode</button>
+
+    <button class="menu-btn" id="menu-btn">☰</button>
+
+</header>
+
+    <main>
+      <section class="gallery-section" id="gallery">
+        <h2>My Gallery</h2>
+
+        <div class="gallery">
+          <figure class="image">
+            <img src="images/image-1.jpg" alt="Mountain landscape" />
+            <figcaption>Mountain</figcaption>
+          </figure>
+
+          <figure class="image">
+            <img src="images/image-2.jpg" alt="Beautiful beach" />
+            <figcaption>Beach</figcaption>
+          </figure>
+
+          <figure class="image">
+            <img src="images/image-3.jpg" alt="Green forest" />
+            <figcaption>Forest</figcaption>
+          </figure>
+
+          <figure class="image">
+            <img src="images/image-4.jpg" alt="City view" />
+            <figcaption>City</figcaption>
+          </figure>
+
+          <figure class="image">
+            <img src="images/image-5.jpg" alt="Beautiful sunset" />
+            <figcaption>Sunset</figcaption>
+          </figure>
+
+          <figure class="image">
+            <img src="images/image-6.jpg" alt="Beautiful lake" />
+            <figcaption>Lake</figcaption>
+          </figure>
+
+          <figure class="image">
+            <img src="images/image-7.jpg" alt="Beautiful waterfall" />
+            <figcaption>Waterfall</figcaption>
+          </figure>
+
+          <figure class="image">
+            <img src="images/image-8.jpg" alt="Snowy mountains" />
+            <figcaption>Snow Mountains</figcaption>
+          </figure>
+
+          <figure class="image">
+            <img src="images/image-9.jpg" alt="Beautiful desert" />
+            <figcaption>Desert</figcaption>
+          </figure>
+
+          <figure class="image">
+            <img src="images/image-10.jpg" alt="Beautiful countryside" />
+            <figcaption>Countryside</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <!-- Image Preview Modal -->
+
+      <div class="modal" id="modal">
+        <span class="close" id="close">&times;</span>
+
+        <img
+          class="modal-img"
+          id="modal-img"
+          src=""
+          alt="Large image preview"
+        />
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Image Gallery</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
